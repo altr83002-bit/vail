@@ -1,0 +1,21 @@
+{
+  "name": "emorce-deobf-bot",
+  "version": "1.0.0",
+  "description": "Emorce Discord deobfuscator — Prometheus, MoonSec, WeAreDevs, LuaObfuscator",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "register": "node src/register-commands.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "form-data": "^4.0.0"
+  },
+  "author": "Emorce / Axion",
+  "license": "UNLICENSED"
+}
